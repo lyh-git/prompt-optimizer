@@ -1,0 +1,24 @@
+# 提示词优化系统配置文件
+# MVP 版本
+
+# 模型配置
+model: gpt-3.5-turbo
+temperature: 0.1
+
+# 迭代配置
+max_iterations: 10
+target_score: 0.9
+
+# API 配置（可选）
+# 设为空或注释掉 use_mock: false 时启用真实 API
+api_key: ""
+base_url: "https://api.openai.com/v1"
+
+# Mock 模式开关（MVP 默认 true，使用模拟响应）
+use_mock: true
+
+# 评估权重
+weights:
+  accuracy: 0.4
+  completeness: 0.3
+  clarity: 0.3
