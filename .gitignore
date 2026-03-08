@@ -1,0 +1,17 @@
+# SQLite database (generated)
+*.db
+prompt_optimizer.db
+
+# Generated output
+best_prompt.txt
+output/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
