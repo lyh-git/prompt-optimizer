@@ -8,13 +8,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.4.0",
     "axios": "^1.6.0",
     "chart.js": "^4.4.0",
-    "marked": "^11.0.0"
+    "marked": "^11.0.0",
+    "vue": "^3.4.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.0",
+    "playwright": "^1.58.2",
     "vite": "^5.0.0"
   }
 }
